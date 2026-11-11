@@ -251,3 +251,11 @@ h1 .kicker{display:block;font-size:clamp(1.1rem,2vw,1.4rem);margin-bottom:.5em}
 .communes{list-style:none;padding:0;margin:0 0 1.2em;display:flex;flex-wrap:wrap;gap:8px}
 .communes li{background:var(--paper);color:var(--navy);font-weight:600;font-size:.95rem;padding:6px 14px;border-radius:999px}
 .footer-local{margin:0 0 6px;color:var(--muted)}
+
+/* Accueil « J'accompagne » : titres, illustrations, textes et boutons alignés d'une colonne à l'autre */
+.public h3{max-width:none;text-wrap:balance}
+@media (min-width:761px){
+  .publics{grid-template-rows:auto auto 1fr auto;row-gap:0}
+  .public{display:grid;grid-row:span 4;grid-template-rows:subgrid;justify-items:center;align-items:start}
+  .public h3{align-self:end}
+}
