@@ -16,6 +16,5 @@ python3 -m http.server 4322
 puis ouvrir http://localhost:4322
 
 ## À faire avant la mise en ligne
-- Compléter le « XX » (nombre de personnes accompagnées) dans Mon histoire
 - Utiliser une version sous licence (sans filigrane) de l'illustration `images/ergotherapeute.png`
 - Une fois le nom de domaine choisi : lien canonique, image de partage (og:image), `sitemap.xml`
