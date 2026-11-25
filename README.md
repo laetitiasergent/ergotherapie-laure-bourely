@@ -2,6 +2,9 @@
 
 Site vitrine statique (HTML/CSS/JS, sans dépendance ni étape de build) de Laure Bourély, ergothérapeute diplômée d'État à domicile dans le Pas-de-Calais (62).
 
+## En ligne
+https://ergo62-laurebourely.fr (Cloudflare Workers, déploiement automatique à chaque push sur `main`)
+
 ## Pages
 - `index.html` : accueil (publics, arguments, mon histoire, avis, tarifs, secteur, contact)
 - `adultes-seniors.html` : accompagnement des adultes et seniors
@@ -17,4 +20,3 @@ puis ouvrir http://localhost:4322
 
 ## À faire avant la mise en ligne
 - Utiliser une version sous licence (sans filigrane) de l'illustration `images/ergotherapeute.png`
-- Une fois le nom de domaine choisi : lien canonique, image de partage (og:image), `sitemap.xml`
